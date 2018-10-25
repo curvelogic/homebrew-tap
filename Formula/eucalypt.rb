@@ -5,8 +5,8 @@ class Eucalypt < Formula
 
   desc "generating, templating and processing YAML, JSON, TOML"
   homepage "https://curvelogic.github.io/eucalypt/"
-  url "https://github.com/curvelogic/eucalypt-hs/archive/0.1.0.663.tar.gz"
-  sha256 "d9cd2888c219b8156ebab109bcf74bb90e5c448b926a80ef6b0092c1c95cbb22"
+  url "https://github.com/curvelogic/eucalypt-hs/archive/0.1.0.703.tar.gz"
+  sha256 "01f82e38d1e77fb22168687a5e0daa9356278b9b2748f6b5cf2c33019716ef5e"
 
   depends_on "ghc" => :build
   depends_on "haskell-stack" => :build
