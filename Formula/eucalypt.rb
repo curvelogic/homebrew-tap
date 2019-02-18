@@ -5,9 +5,9 @@ class Eucalypt < Formula
 
   desc "generating, templating and processing YAML, JSON, TOML"
   homepage "https://curvelogic.github.io/eucalypt/"
-  url "https://github.com/curvelogic/eucalypt-hs/archive/0.1.0.943.tar.gz"
-  # To update: curl -L ${url} > shasum -a 256
-  sha256 "329301d61db032e2b9d279a2fa1ce68ce304e0b32a3eb2972af4d924f6d060e2"
+  url "https://github.com/curvelogic/eucalypt/archive/0.1.1.1438.tar.gz"
+  # To update: curl -L ${url} | shasum -a 256
+  sha256 "e2d43a112194ada76aae6a14d9d4ac01e34623b57ae810704b951e2699d3cfa0"
 
   depends_on "ghc" => :build
   depends_on "haskell-stack" => :build
@@ -15,7 +15,7 @@ class Eucalypt < Formula
   depends_on "pkg-config" => :build
 
   def install
-    inreplace "package.yaml", /version:\s+0\.1\.0\.0/, "version: #{version} "
+    inreplace "package.yaml", /version:\s+0\.1\.1\.0/, "version: #{version} "
     system "stack", "--system-ghc", "build"
     binary = `stack --system-ghc path --local-install-root`.strip + "/bin/eu"
     bin.install binary
