@@ -1,10 +1,10 @@
 
 class Eucalypt < Formula
-  version "0.1.1.1972"
+  version "0.1.1.2042"
   desc "Eucalypt (eu) tool for generating, templating and processing YAML, JSON, TOML"
   homepage "https://curvelogic.github.io/eucalypt/"
-  url "https://github.com/curvelogic/eucalypt/releases/download/0.1.1.1972/eucalypt-x86_64-osx.tgz"
-  sha256 "592412087e5311b1f9680b6e8692c46a0216d3300cf0dfe2029986f41851d9f2"
+  url "https://github.com/curvelogic/eucalypt/releases/download/0.1.1.2042/eucalypt-x86_64-osx.tgz"
+  sha256 "be6d2ee06a12db3f2fe857de7882e453e80cc956b363b6a466c51995f675dd75"
   bottle :unneeded
   
   def install
