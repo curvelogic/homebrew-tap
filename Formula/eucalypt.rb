@@ -1,5 +1,5 @@
 class Eucalypt < Formula
-  version "0.2.0.202"
+  version "0.2.0.224"
   desc "Eucalypt (eu) tool for generating, templating and processing YAML, JSON, TOML"
   homepage "https://curvelogic.github.io/eucalypt/"
   url "https://github.com/curvelogic/eucalypt/releases/download/0.2.0.224/eucalypt-x86_64-osx.tgz"
