@@ -5,11 +5,13 @@
 https://github.com/curvelogic/fimbl
 
 ```sh
-brew install curvelogic/homebrew-tap/fimbl
+brew install curvelogic/tap/fimbl
 ```
 
 ## Eucalypt
 
+https://www.curvelogic.co.uk/eucalypt/
+
 ```sh
-brew install curvelogic/homebrew-tap/eucalypt
+brew install curvelogic/tap/eucalypt
 ```
