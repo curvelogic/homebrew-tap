@@ -1,9 +1,9 @@
 class Eucalypt < Formula
   desc "Tool for generating, templating and processing YAML, JSON, TOML"
   homepage "https://curvelogic.github.io/eucalypt/"
-  url "https://github.com/curvelogic/eucalypt/releases/download/0.3.0.361/eucalypt-x86_64-osx.tgz"
-  version "0.3.0.361"
-  sha256 "f752f3645f4f61de030c93a9064ffbd05738359d6e92101e1ec1392276beeef7"
+  url "https://github.com/curvelogic/eucalypt/releases/download/0.3.0.498/eucalypt-aarch64-osx.tgz"
+  version "0.3.0.498"
+  sha256 "f6d58b585c4df7b02b1d404b74f2fd6adafcd851a544f63ced381c819b289bb3"
 
   def install
     bin.install "eu"
