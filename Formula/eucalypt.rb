@@ -1,22 +1,22 @@
 class Eucalypt < Formula
   desc "Tool for generating, templating and processing YAML, JSON, TOML"
   homepage "https://curvelogic.github.io/eucalypt/"
-  version "0.5.4.1467"
+  version "0.6.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/curvelogic/eucalypt/releases/download/0.5.4.1467/eucalypt-aarch64-osx.tgz"
-      sha256 "1875c01771d2e5494643252de561598f6bfcaaf9fd1de5f8824efdbbeca2d3f7"
+      url "https://github.com/curvelogic/eucalypt/releases/download/v0.6.0/eucalypt-aarch64-osx.tgz"
+      sha256 "239414a168e58948b97316b1d944b7c34f6db17539feef862fdd39a09a00d6a5"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/curvelogic/eucalypt/releases/download/0.5.4.1467/eucalypt-aarch64-linux.tgz"
-      sha256 "0eb5de83ff399fd5d6fe16e6c32703e34220b1447fb3af375ab84ec1d079fa90"
+      url "https://github.com/curvelogic/eucalypt/releases/download/v0.6.0/eucalypt-aarch64-linux.tgz"
+      sha256 "6874be4343b1e68711b64b732258f7c1527524251c99b4dd18ecf8a32263d16d"
     elsif Hardware::CPU.intel?
-      url "https://github.com/curvelogic/eucalypt/releases/download/0.5.4.1467/eucalypt-x86_64-linux.tgz"
-      sha256 "224fab15541d9e5344ef6ec8198bbfca3ac03a319a6352f8532b1a667fae071e"
+      url "https://github.com/curvelogic/eucalypt/releases/download/v0.6.0/eucalypt-x86_64-linux.tgz"
+      sha256 "8997388141d86c49eed2f565bb310eb02a947119e276246167dac6d4aef491d9"
     end
   end
 
