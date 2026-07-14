@@ -1,26 +1,26 @@
 class Acetone < Formula
   desc "Version-controlled labelled property graph database, queried with openCypher"
   homepage "https://github.com/curvelogic/acetone"
-  version "0.1.0"
+  version "0.1.1"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/curvelogic/acetone/releases/download/v0.1.0/acetone-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "2938a2d6cf7b7ca219e21026c4492952e4d7cd8f3d2a63a18ee2d352cf5dd315"
+      url "https://github.com/curvelogic/acetone/releases/download/v0.1.1/acetone-v0.1.1-aarch64-apple-darwin.tar.gz"
+      sha256 "1d711ce263e21570530b1b631250e87cc737498ef8b81b6a5aa156425737ec6e"
     else
-      url "https://github.com/curvelogic/acetone/releases/download/v0.1.0/acetone-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "86995e29183b7591aa082046565a35250bbed622afaca205536ca43d7ee23ea6"
+      url "https://github.com/curvelogic/acetone/releases/download/v0.1.1/acetone-v0.1.1-x86_64-apple-darwin.tar.gz"
+      sha256 "0c96d16aeeb97d8446e3585857b9a7898902baf199ed6ea914b97ca769696580"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/curvelogic/acetone/releases/download/v0.1.0/acetone-v0.1.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "3f7e5d5ed3c7339022734f7433af953ae8ce4ca42454052307efb91f9b12b4dc"
+      url "https://github.com/curvelogic/acetone/releases/download/v0.1.1/acetone-v0.1.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "777041cc46340e9bde4ae7505c3f49e2155ca1fb86dd162ca89a3c400eb5da86"
     else
-      url "https://github.com/curvelogic/acetone/releases/download/v0.1.0/acetone-v0.1.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "67c8ebd1dd2f7c503d649f6aa264904fd0f9f8d1d67e380da7740cc91a83f230"
+      url "https://github.com/curvelogic/acetone/releases/download/v0.1.1/acetone-v0.1.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "1f553eb47555b24014ace78d68c4678fe9a0c261a5b6afc60d1d556ed90ce8e0"
     end
   end
 
